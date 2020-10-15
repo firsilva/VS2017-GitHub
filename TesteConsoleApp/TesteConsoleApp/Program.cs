@@ -10,8 +10,16 @@ namespace TesteConsoleApp
     {
         static void Main(string[] args)
         {
+            string nome;
+
             Console.WriteLine("Exemplo de uso do GitHub com o Visual Studio 2017");
-            Console.ReadKey();
+            Console.WriteLine("Digite seu nome: ");
+            nome = Console.ReadLine();
+
+            Console.Clear();
+            Console.Title = "TESTE DE GIT";
+            Console.WriteLine("Nome é " + nome);
+            Console.ReadLine();
         }
     }
 }
